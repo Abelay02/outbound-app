@@ -21,7 +21,7 @@ import { ThemeSwitcher } from "./utilities/theme-switcher"
 
 const navLinks = [
   { href: "/about", label: "About" },
-  { href: "/pricing", label: "Pricing" },
+  { href: "/integrations", label: "Integrations" },
   { href: "/contact", label: "Contact" }
 ]
 
