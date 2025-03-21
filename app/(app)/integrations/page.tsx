@@ -27,7 +27,6 @@ export default function IntegrationsPage() {
     // We'll read userId in the server action itself, not here
     await createIntegrationAction({
       // We'll pass userId in the server action (which must "import { auth }" internally).
-      userId: "dummy", // We'll refine this approach in the next step.
       provider,
       apiKey
     })
